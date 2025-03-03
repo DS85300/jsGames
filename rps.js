@@ -30,7 +30,7 @@ console.log(`Computer chose: ${computerMove}`);
 // display: "You win"
 // all other moves let the machine win,means we use else method/function to let the terminal display: "You loose"
 if (playerMove === computerMove) {
-    console.log("It's a draw!");
+    console.log("It's a draw!")
 } else if (
     (playerMove === "rock" && computerMove === "scissors") ||
     (playerMove === "paper" && computerMove === "rock") ||
